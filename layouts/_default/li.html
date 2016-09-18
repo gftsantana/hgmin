@@ -1,0 +1,5 @@
+<h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
+<p class="summary"><a href="{{.Permalink}}">{{.Summary}}</a></p>
+{{if .Truncated}}
+<a href="{{.Permalink}}" class="more">Read more... </a>
+{{end}}

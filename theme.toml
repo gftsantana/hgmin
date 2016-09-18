@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "hgmin"
+license = "MIT"
+licenselink = "https://github.com/gftsantana/hgmin/blob/master/LICENSE.md"
+description = "Tylesh is a theme for the Hugo static site generator. It is designed to load fast and still have a lot of features."
+homepage = "https://github.com/gftsantana/hgmin/"
+tags = ["", ""]
+features = ["", ""]
+min_version = 0.14
+
+[author]
+  name = "Gildo Santana"
+  homepage = "https://github.com/gftsantana"

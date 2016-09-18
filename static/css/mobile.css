@@ -1,0 +1,186 @@
+a {
+  color: #673AB7;
+  text-decoration: none;
+}
+
+body {
+  color: #212121;
+  margin: 0;
+  font-family: Ubuntu, Segoe UI, San Francisco, sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: geometricPrecision;
+  color: #673AB7;
+}
+
+small {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+/*header */
+header {
+  margin: 0;
+}
+
+header nav li {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu-current {
+  text-decoration: underline;
+  text-decoration-color: #FF5722;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 2;
+}
+
+#social {
+  text-align: right;
+  padding-right: 10%;
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+
+#social i {
+  color: #FF5722;
+  font-size: 2em;
+}
+
+/* new content */
+
+#newest {
+  margin: 0 auto;
+}
+
+.featured {
+  display: inline-block;
+  height: 10em;
+  width: 100%;
+  background-size: cover;
+  background-color: #512DA8;
+  text-align: center;
+}
+
+.featured a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* List of articles */
+
+#list_articles {
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 12pt;
+}
+
+#list_articles p a {
+  color: #727272;
+}
+
+.summary {
+  font-size: .8em;
+}
+
+.more {
+  font-family: serif;
+  font-size: .9em;
+  color: #FF5722;
+}
+
+#paginator {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.paginator-navigation i {
+  color: #FF5722;
+  padding: 0 1em;
+  display: inline-block;
+}
+
+.paginator-navigation i:hover {
+  text-decoration: none;
+}
+
+.previous-next-article {
+  border-top: 1px solid #b6b6b6;
+}
+
+/* Article */
+
+article {
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 90%;
+}
+
+#postTitle {
+  font-size: 3em;
+  text-transform: uppercase;
+  padding-left: 0;
+  color: #512DA8;
+}
+
+.article-image {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+i {
+  color: #b6b6b6;
+  text-rendering: geometricPrecision;
+  font-size: .5em;
+}
+
+#share a {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+/* Disqus */
+
+.comments {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/*Footer */
+
+footer {
+  border-top: 1px dotted #b6b6b6;
+  margin: 0;
+  padding: 1em;
+  color: #b6b6b6;
+}
+
+footer li {
+  list-style: none;
+}
+
+.copyright {
+  text-align: center;
+}

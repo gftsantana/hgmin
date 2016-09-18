@@ -1,0 +1,7 @@
+<footer>
+  <h3><a href="{{.Site.BaseURL}}">{{.Site.Title}}</a></h3>
+  {{range .Site.Menus.footer}}
+  <li><a href="{{.URL}}">{{.Name}}</a></li>
+  {{end}}
+  <small class="copyright">&copy; {{.Site.Copyright}}</small>
+</footer>

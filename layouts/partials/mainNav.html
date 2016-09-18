@@ -1,0 +1,8 @@
+{{$currentNode := .}}
+<nav id="mainNav">
+  <ul>
+    {{range .Site.Menus.main}}
+    <li><a {{ if ($currentNode.IsMenuCurrent "main" .)}} class="menu-current" {{end}} href="{{.URL}}">{{.Name}}</a></li>
+    {{end}}
+  </ul>
+</nav>

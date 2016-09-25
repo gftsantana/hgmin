@@ -1,5 +1,9 @@
+html, body {
+  height: 100%;
+}
+
 a {
-  color: #673AB7;
+  color: #0074D9;
   text-decoration: none;
 }
 
@@ -7,18 +11,23 @@ a:hover {
   text-decoration: underline;
 }
 
+article a:visited {
+  color: #B10DC9;
+}
+
 body {
-  color: #212121;
+  color: #333;
   margin: 0;
-  font-family: Ubuntu, Segoe UI, San Francisco, sans-serif;
+  font-family: 'Arvo', serif;
 }
 
 p {
-  font-family: sans-serif;
-  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
   font-size: 16pt;
   text-rendering: optimizeLegibility;
   text-align: justify;
+  text-indent: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,14 +39,19 @@ small {
   margin-bottom: 2em;
 }
 
+.date, .author {
+  color: #FF851B;
+}
+
 /*header */
 header {
-  background-color: #512DA8;
   margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
 }
 
 header a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -46,8 +60,8 @@ header a:hover {
 }
 
 header nav {
-  background-color: #673AB7;
   line-height: 3;
+  display: inline-block;
 }
 
 header nav li {
@@ -61,33 +75,25 @@ header nav li {
 header nav li a:hover {
   text-decoration: none;
   transition: 3s;
-  color: #FF5722;
+  color: #FF851B;
 }
 
 .menu-current, .menu-current:hover {
   text-decoration: underline;
-  text-decoration-color: #FF5722;
+  color: #FF851B;
 }
 
-header h1 {
+#site-title {
   margin: 0;
   padding: 0;
   text-align: left;
   padding-left: 2em;
   line-height: 2;
+  display: inline-block;
 }
 
-#social {
-  background-color: white;
-  text-align: right;
-  padding-right: 10%;
-  margin-bottom: 20px;
-  margin-top: 3px;
-}
-
-#social i {
-  color: #FF5722;
-  font-size: 2em;
+#site-title a {
+  color: #FF851B;
 }
 
 /* new content */
@@ -152,7 +158,7 @@ header h1 {
 .more {
   font-family: serif;
   font-size: .9em;
-  color: #FF5722;
+  color: #FF851B;
 }
 
 #paginator {
@@ -161,7 +167,7 @@ header h1 {
 }
 
 .paginator-navigation i {
-  color: #FF5722;
+  color: #FF851B;
   padding: 0 1em;
   display: inline-block;
 }
@@ -188,14 +194,15 @@ header h1 {
 article {
   margin: 0 auto;
   padding: 1em;
-  max-width: 800px;
+  width: 96%;
+  max-width: 780px;
 }
 
 #postTitle {
   font-size: 3em;
   text-transform: uppercase;
   padding-left: 0;
-  color: #512DA8;
+  color: #000;
 }
 
 .article-image {
@@ -203,20 +210,6 @@ article {
   height: auto;
   display: block;
   margin: 1em auto;
-}
-
-i {
-  color: #b6b6b6;
-  text-rendering: geometricPrecision;
-}
-
-i:hover {
-  color: #FF5722;
-}
-
-#share a {
-  display: inline-block;
-  padding-right: 1em;
 }
 
 /* Disqus */
@@ -229,7 +222,7 @@ i:hover {
 /*Footer */
 
 footer {
-  background-color: #D1C4E9;
+  background-color: #fafafa;
   margin: 0;
   padding: 1em;
 }

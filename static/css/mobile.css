@@ -6,11 +6,11 @@ a {
 body {
   color: #212121;
   margin: 0;
-  font-family: Ubuntu, Segoe UI, San Francisco, sans-serif;
+  font-family: 'Arvo', serif;
 }
 
 p {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   line-height: 1.5;
   text-rendering: optimizeLegibility;

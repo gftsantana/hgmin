@@ -4,7 +4,7 @@
   <body>
     {{partial "header.html" .}}
     {{partial "newest.html" .}}
-    <div id="list_articles">
+    <div id="listArticles">
       {{range first 10 .Data.Pages}}
         {{if not (eq .Type "page")}}
           {{.Render "li"}}

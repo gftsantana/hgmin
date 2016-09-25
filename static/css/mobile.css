@@ -89,13 +89,13 @@ header h1 {
 
 /* List of articles */
 
-#list_articles {
+#listArticles {
   margin: 0 auto;
   padding: 1em;
   font-size: 12pt;
 }
 
-#list_articles p a {
+#listArticles p a {
   color: #727272;
 }
 

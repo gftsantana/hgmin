@@ -137,21 +137,35 @@ header a:hover {
 
 /* List of articles on index */
 
-#list_articles {
+#listArticles {
   max-width: 1024px;
   margin: 0 auto;
   padding: 1em;
   font-size: 12pt;
+  display: flex;
+  flex-direction: column;
 }
 
-#list_articles::after {
-  content: " ";
-  display: block;
-  height: 0;
-  clear: both;
+.article-list-item > .thumbnail {
+  background-color: #ddd;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 10px;
 }
 
-#list_articles p a {
+.article-list-item-text {
+  display: inline-block;
+  max-width: calc(100% - 200px);
+  vertical-align: top;
+}
+
+.article-list-item-header {
+  margin-top: 10px;
+}
+
+#listArticles p a {
   color: #727272;
 }
 
@@ -179,21 +193,6 @@ header a:hover {
 .paginator-navigation i:hover {
   text-decoration: none;
 }
-
-.previous-next-article {
-  display:inline-block;
-  max-width: 48%;
-  vertical-align: top;
-}
-
-.previous-article {
-  float: left;
-}
-
-.next-article {
-  float: right;
-}
-/* Article */
 
 article {
   margin: 0 auto;

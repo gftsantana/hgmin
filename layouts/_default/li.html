@@ -1,5 +1,8 @@
-<h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
-<p class="summary"><a href="{{.Permalink}}">{{.Summary}}</a></p>
-{{if .Truncated}}
-<a href="{{.Permalink}}" class="more">Read more... </a>
-{{end}}
+<div class="article-list-item">
+  <div class="thumbnail" {{with .Params.thumbnail}}style="background-image: url({{.}});"{{end}}>
+  </div>
+  <div class="article-list-item-text">
+    <h2 class="article-list-item-header"><a href="{{.Permalink}}">{{.Title}}</a></h2>
+    <p class="summary"><a href="{{.Permalink}}">{{.Summary}}</a></p>
+  </div>
+</div>

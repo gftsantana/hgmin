@@ -49,7 +49,9 @@ header {
   padding: 0;
   display: flex;
   align-items: center;
-  height: 100%;
+  height: 18%;
+  min-height: 5rem;
+  background-color: #fff;
 }
 
 header a {
@@ -63,20 +65,19 @@ header a:hover {
 
 #mainNav {
   padding: 0;
-  margin: auto 0;
 }
 
 #mainNav ul li {
   list-style: none;
   display: inline-block;
-  padding: 2px 10px;
+  padding: 1rem;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 #mainNav ul li a:hover {
   text-decoration: none;
-  transition: 3s;
+  transition: 1s;
   color: #FF851B;
 }
 
@@ -86,9 +87,8 @@ header a:hover {
 }
 
 #site-title {
-  padding: 0;
+  padding: 0 2rem;
   text-align: left;
-  padding-left: 2em;
 }
 
 #site-title a {
@@ -100,7 +100,8 @@ header a:hover {
 #newest {
   margin: 0 auto;
   max-width: 1024px;
-  /*border: 1px solid;*/
+  top: 0;
+  position: relative;
 }
 
 .featured {

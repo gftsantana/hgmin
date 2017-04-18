@@ -1,5 +1,5 @@
 a {
-  color: #673AB7;
+  color: #0074D9;
   text-decoration: none;
 }
 
@@ -18,7 +18,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   text-rendering: geometricPrecision;
-  color: #673AB7;
+  color: #FF851B;
 }
 
 small {
@@ -47,6 +47,10 @@ header h1 {
   padding: 0;
   text-align: center;
   line-height: 2;
+}
+
+#site-title a {
+  color: #FF851B;
 }
 
 #social {
@@ -140,7 +144,7 @@ article {
   font-size: 3em;
   text-transform: uppercase;
   padding-left: 0;
-  color: #512DA8;
+  color: #000;
 }
 
 .article-image {
